@@ -60,6 +60,14 @@ def select_multiple_webpages(request):
     return render(request,'select_multiple_webpages.html',d)
 
 
+# url navigation # action attribute in chechBox.html file
+def chechBox(request):
+    QLTO = Topic.objects.all()
+    return render(request,'chechBox.html',{'topic':QLTO})
+
+
+
+
 
 
 

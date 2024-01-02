@@ -25,4 +25,5 @@ urlpatterns = [
     path('create_accessrecords/',create_accessrecords,name='create_accessrecords'),
     path('select_multiple_webpages/',select_multiple_webpages,name='select_multiple_webpages'),
     path('select_multiple_accessrecords/',select_multiple_accessrecords,name='select_multiple_accessrecords'),
+    path('chechBox/',chechBox,name='chechBox')
 ]
