@@ -22,4 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('create_topic/',create_topic,name='create_topic'),
     path('create_webpage/',create_webpage,name='create_webpage'),
+    path('create_accessrecords/',create_accessrecords,name='create_accessrecords'),
+    path('select_multiple_webpages/',select_multiple_webpages,name='select_multiple_webpages'),
+    path('select_multiple_accessrecords/',select_multiple_accessrecords,name='select_multiple_accessrecords'),
 ]
